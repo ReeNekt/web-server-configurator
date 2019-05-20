@@ -178,7 +178,7 @@ createWebApplication() {
     fi
 
     sudo chmod -R 755 ${WebApplicationPath}
-#
+
     read -p "Enter domain name (expample: myapp.local): " WebApplicationDomain
     if [[ -z "${WebApplicationDomain}" ]]; then
         echo "Path cannot be empty!"
@@ -235,13 +235,13 @@ installLAMP() {
     echo -e "+=============== INSTALLING LAMP START ===============+"
 
     echo -e "${On_Blue}[INFO]${Color_Off} Updating packages"
-    #sudo apt update
+    sudo apt update
 
-    #installApache
+    installApache
 
-    #installMysql
+    installMysql
 
-    #installPhp
+    installPhp
 
     echo -n -e "${On_Purple}[QUESTION]${Color_Off} ${BWhite}Do you want to create new VirtualHost (y/n) [n]: "
     read
