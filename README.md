@@ -9,11 +9,11 @@ web-server-configurator is a set of shell scripts created in order to make web s
 
 
 # Contributing
-If you want to help me make this project better, you can fix some issue or create merge request with new functional, or help me translate docs
+If you want to help me make this project better, you can fix [some issue](https://github.com/ReeNekt/web-server-configurator/issues) or create merge request with new functional, or help me translate docs
 
 # License
-This project licensed under MIT Lisence. See **LICENSE** file for details
+This project licensed under MIT Lisence. See **[LICENSE](https://github.com/ReeNekt/web-server-configurator/blob/master/LICENSE)** file for details
 
-# Changelist
+# Changelog
 
 Version 0.1 beta - created LAMP installer script, created README and LICENSE files
